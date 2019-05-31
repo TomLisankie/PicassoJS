@@ -1,5 +1,8 @@
 # Picasso JS
 
+## TODO:
+- Replace [`d3-voronoi`](https://github.com/d3/d3-voronoi) with [`d3-delaunay`](https://github.com/d3/d3-delaunay)
+
 [Live](http://vorpus.github.io/PicassoJS/)
 
 ## Background
