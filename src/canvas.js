@@ -1,17 +1,16 @@
-const d3poly = require('./d3-voronoi/d3-polygon.v1.min.js')
+const d3poly = require('./d3-delaunay/d3-delaunay.min.js')
 
 class Canvas {
   constructor(ctx) {
     this.points = [];
-    this.voronoi = d3.geom.voronoi()
-                      .size([Canvas.DIM_X, Canvas.DIM_Y]);
+    this.voronoi = d3.geom.voronoi(this.points); // TODO: Change this d3-delaunay version
     this.image = new Image();
     this.colorMap = {};
 
     this.showAccurate = false;
     this.showBorders = true;
     this.showPoints = true;
-    this.opacity = 0.75;
+    this.opacity = 1;
   }
 
   togglePoints() {

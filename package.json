@@ -1,0 +1,25 @@
+{
+  "name": "PicassoJS",
+  "version": "1.0.0",
+  "description": "## TODO: - Replace [`d3-voronoi`](https://github.com/d3/d3-voronoi) with [`d3-delaunay`](https://github.com/d3/d3-delaunay)",
+  "main": "bundle.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomLisankie/PicassoJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomLisankie/PicassoJS/issues"
+  },
+  "homepage": "https://github.com/TomLisankie/PicassoJS#readme"
+}
