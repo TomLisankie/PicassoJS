@@ -1,5 +1,5 @@
 const Canvas = require('./canvas');
-const d3 = require('./d3-voronoi/d3.v3.min.js');
+const d3 = require('./d3-voronoi/d3.v5.min.js');
 
 document.addEventListener("DOMContentLoaded", () => {
   const canvas = document.getElementById('canvas');
