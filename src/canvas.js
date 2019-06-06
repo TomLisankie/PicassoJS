@@ -11,7 +11,7 @@ class Canvas {
     this.showAccurate = false;
     this.showBorders = true;
     this.showPoints = true;
-    this.opacity = 0.75;
+    this.opacity = 1.0;
   }
 
   togglePoints() {
