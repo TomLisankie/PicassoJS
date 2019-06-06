@@ -5,7 +5,8 @@
   "main": "voronoi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "webpack --entry ./src/voronoi.js"
+    "dev" : "webpack --entry ./src/voronoi.js --mode development",
+    "build" : "webpack --entry ./src/voronoi.js --mode production"
   },
   "repository": {
     "type": "git",
