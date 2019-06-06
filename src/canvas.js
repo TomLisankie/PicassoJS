@@ -172,7 +172,7 @@ class Canvas {
     let relevantRedRows = this.relevantRows(bounds, this.colorMap.reds)
     let relevantGreenRows = this.relevantRows(bounds, this.colorMap.greens)
     let relevantBlueRows = this.relevantRows(bounds, this.colorMap.blues)
-    return [relevantReds,relevantGreens,relevantBlues];
+    return [relevantRedRows,relevantGreenRows,relevantBlueRows];
   }
 
   relevantRows(bounds, colorMapSingles) {
